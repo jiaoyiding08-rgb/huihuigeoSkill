@@ -1,8 +1,8 @@
-# GEO Loop Pro 1.0
+# huihuigeoSkill 1.0
 
 作者：汇汇
 
-GEO Loop Pro 是一套给 Codex 和 Gemini CLI 使用的 GEO 技能。它用来记录顾客怎么问 AI、AI 引用了哪些文章、回答有没有推荐品牌，再用这些记录决定下一篇写什么、发到哪里。
+huihuigeoSkill 是一套给 Codex 和 Gemini CLI 使用的 GEO 技能。它用来记录顾客怎么问 AI、AI 引用了哪些文章、回答有没有推荐品牌，再用这些记录决定下一篇写什么、发到哪里。
 
 ## 1.0 能做什么
 
@@ -23,19 +23,19 @@ GEO Loop Pro 是一套给 Codex 和 Gemini CLI 使用的 GEO 技能。它用来�
 在需要使用的项目目录运行：
 
 ```bash
-gemini skills install https://github.com/jiaoyiding08-rgb/geo-loop-pro.git --path geo --scope workspace
+gemini skills install https://github.com/jiaoyiding08-rgb/huihuigeoSkill.git --path geo --scope workspace
 ```
 
 如同一项目已经安装过旧的 `geo`，先用 `gemini skills list` 确认旧版所在范围，再卸载对应范围的旧技能并运行安装命令。安装后在 Gemini 会话中运行 `/skills reload`，再用 `/skills list` 确认出现 `geo`。 [Gemini CLI 技能文档](https://geminicli.com/docs/cli/skills/)
 
 ### 下载 ZIP 安装
 
-从 [v1.0.0 发布页](https://github.com/jiaoyiding08-rgb/geo-loop-pro/releases/tag/v1.0.0) 下载 `geo-loop-pro-v1.0.0.zip`，解压后保留完整的 `geo/` 目录。
+从 [v1.0.0 发布页](https://github.com/jiaoyiding08-rgb/huihuigeoSkill/releases/tag/v1.0.0) 下载 `geo-loop-pro-v1.0.0.zip`，解压后保留完整的 `geo/` 目录。
 
 - Gemini CLI 可在品牌项目目录运行 `gemini skills install /你的解压路径/geo --scope workspace`。
 - Codex 可将 `geo/` 放到用户技能目录 `~/.codex/skills/`。已有同名技能时，先把旧目录移到技能目录之外备份，再放入新版。
 
-仓库和发布包使用名称 GEO Loop Pro，技能调用名保留为 `geo`，现有项目仍可沿用原有调用方式。
+仓库名称为 huihuigeoSkill，技能调用名为 `geo`，现有项目仍可沿用原有调用方式。
 
 ## 开始使用
 
