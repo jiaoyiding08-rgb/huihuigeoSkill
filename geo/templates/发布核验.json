@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "work_id": "",
+  "evidence_kind": "unknown",
+  "public_url": "",
+  "published_at": null,
+  "checked_at": null,
+  "approved_file": "",
+  "approved_sha256": "",
+  "snapshot_file": "",
+  "access": {
+    "status": "unknown",
+    "context": "",
+    "evidence_file": "",
+    "locator": ""
+  },
+  "sections": [
+    {
+      "id": "answer-1",
+      "kind": "answer",
+      "quote": "",
+      "fact_ids": []
+    },
+    {
+      "id": "brand-1",
+      "kind": "brand",
+      "quote": "",
+      "fact_ids": []
+    }
+  ]
+}

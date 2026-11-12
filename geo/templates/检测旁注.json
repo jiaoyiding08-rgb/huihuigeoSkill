@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "task_id": "填写 tasks.csv 的 task_id",
+  "evidence_kind": "user_report",
+  "capture_origin": "offline",
+  "phase": "unknown",
+  "observed_at": null,
+  "conversation_url": "",
+  "session_id": "",
+  "context": {
+    "entry": "",
+    "model": "unknown",
+    "web": "unknown",
+    "memory": "unknown",
+    "personalization": "unknown",
+    "account_alias": "",
+    "region": "",
+    "independent_session": null,
+    "thinking_mode": "unknown"
+  },
+  "coverage": {
+    "answer": {
+      "state": "unknown",
+      "captured": null,
+      "expected": null,
+      "note": ""
+    },
+    "reference_panel": {
+      "state": "unknown",
+      "captured": null,
+      "expected": null,
+      "note": ""
+    },
+    "landing_urls": {
+      "state": "unknown",
+      "captured": null,
+      "expected": null,
+      "note": ""
+    },
+    "paragraph_map": {
+      "state": "unknown",
+      "captured": null,
+      "expected": null,
+      "note": ""
+    },
+    "source_archives": {
+      "state": "unknown",
+      "captured": null,
+      "expected": null,
+      "note": ""
+    }
+  },
+  "outcomes": {
+    "reference_list": "unknown",
+    "body_citation": "unknown",
+    "brand_mention": "unknown",
+    "brand_recommendation": "unknown",
+    "brand_citation_support": "unknown",
+    "hard_facts": "unverified"
+  },
+  "evidence": {
+    "answer": [],
+    "reference_list": [],
+    "body_citation": [],
+    "brand_mention": [],
+    "brand_recommendation": [],
+    "brand_citation_support": [],
+    "hard_facts": []
+  },
+  "recommendation": {
+    "quote": "",
+    "position": null
+  },
+  "hard_fact_review_complete": false,
+  "fact_checks": [],
+  "note": "默认是未核实的离线资料。只有实际完成现场采样才改 live_capture 和 consumer_ui。事实校验见参考文档。",
+  "question_type": "unknown",
+  "window": ""
+}
